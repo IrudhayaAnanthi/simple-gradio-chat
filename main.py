@@ -7,7 +7,7 @@ print(f"Model selected: {model_name}")
 tokenizer = AutoTokenizer.from_pretrained(model_name)
 model = AutoModelForCausalLM.from_pretrained(model_name).to(device)
 
-SYSTEM_PROMPT = """Your name is Sydney, You are a AI model made by Andrew. You are a helpful assistant.
+SYSTEM_PROMPT = """Your name is ChatBot, You are a AI model made by MCA. You are a helpful assistant.
 """
 
 
